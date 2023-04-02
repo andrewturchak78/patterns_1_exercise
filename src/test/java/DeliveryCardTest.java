@@ -42,6 +42,7 @@ public class DeliveryCardTest {
         $$("button").find(exactText("Запланировать")).click();
         $("[data-test-id='replan-notification']").shouldBe(visible, Duration.ofSeconds(15));
         $$("button").find(exactText("Перепланировать")).click();
+        $(".notification_status_ok").shouldBe(visible);
         $("[data-test-id='success-notification'] .notification__content").shouldHave(exactText("Встреча успешно запланирована на " + generator.generateDate(7)));
     }
 }
