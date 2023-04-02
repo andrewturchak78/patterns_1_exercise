@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48d708c3-480c-4344-ad38-a3be585246ca" name="Changes" comment="gradle added">
+    <list default="true" id="48d708c3-480c-4344-ad38-a3be585246ca" name="Changes" comment="test fixed again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeliveryCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeliveryCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DeliveryCardTest">
+  <component name="RunManager" selected="Gradle.DeliveryCardTest.shouldCardTest">
     <configuration name="DeliveryCardTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DeliveryCardTest" />
         <item itemvalue="Gradle.DeliveryCardTest.shouldCardTest" />
+        <item itemvalue="Gradle.DeliveryCardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680457197359</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test fixed again">
+      <created>1680458252698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680458252698</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,8 +172,8 @@
     <MESSAGE value="build gradle fixed" />
     <MESSAGE value="code fixed" />
     <MESSAGE value="build added" />
-    <MESSAGE value="test fixed again" />
     <MESSAGE value="gradle added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle added" />
+    <MESSAGE value="test fixed again" />
+    <option name="LAST_COMMIT_MESSAGE" value="test fixed again" />
   </component>
 </project>
