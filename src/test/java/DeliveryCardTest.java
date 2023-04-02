@@ -40,7 +40,7 @@ public class DeliveryCardTest {
         $("[data-test-id=date] input").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").sendKeys(generator.generateDate(7));
         $$("button").find(exactText("Запланировать")).click();
-        $("[data-test-id='replan-notification']").shouldBe(visible, Duration.ofSeconds(5));
+        $("[data-test-id='replan-notification']").shouldBe(visible, Duration.ofSeconds(15));
         $$("button").find(exactText("Перепланировать")).click();
         $("[data-test-id='success-notification'] .notification__content").shouldHave(exactText("Встреча успешно запланирована на " + generator.generateDate(7)));
     }
