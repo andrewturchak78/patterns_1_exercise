@@ -29,11 +29,11 @@ public class DeliveryCardTest {
     @Test
     void shouldCardTest() {
         open("http://localhost:9999/");
-        $("[data-test-id=name] input").setValue(generateName());
-        $("[data-test-id=phone] input").setValue(generatePhone());
-        $("[data-test-id=city] input").setValue(generator.generateCity());
         $("[data-test-id=date] input").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").sendKeys(generator.generateDate(5));
+        $("[data-test-id=city] input").setValue(generator.generateCity());
+        $("[data-test-id=name] input").setValue(generateName());
+        $("[data-test-id=phone] input").setValue(generatePhone());
         $("[data-test-id=agreement]").click();
         $$("button").find(exactText("Запланировать")).click();
         $("[data-test-id='success-notification'] .notification__content").shouldHave(exactText("Встреча успешно запланирована на " + generator.generateDate(5)));

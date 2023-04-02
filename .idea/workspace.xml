@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48d708c3-480c-4344-ad38-a3be585246ca" name="Changes" comment="tests added and again">
+    <list default="true" id="48d708c3-480c-4344-ad38-a3be585246ca" name="Changes" comment="file changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DeliveryCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeliveryCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680459395947</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="file changed">
+      <created>1680460730650</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680460730650</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +204,7 @@
     <MESSAGE value="tests added" />
     <MESSAGE value="tests added again" />
     <MESSAGE value="tests added and again" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests added and again" />
+    <MESSAGE value="file changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="file changed" />
   </component>
 </project>
