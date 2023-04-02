@@ -1,4 +1,5 @@
 import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -22,6 +23,7 @@ public class DeliveryCardTest {
     String phone = faker.phoneNumber().phoneNumber();
     @BeforeEach
     void setUpConnection() {
+        Configuration.headless = true ;
         open("http://localhost:9999/");
     }
 

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48d708c3-480c-4344-ad38-a3be585246ca" name="Changes" comment="test created">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="48d708c3-480c-4344-ad38-a3be585246ca" name="Changes" comment="build gradle fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,12 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1680455366568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="build gradle fixed">
+      <created>1680455658953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680455658953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="test created" />
-    <option name="LAST_COMMIT_MESSAGE" value="test created" />
+    <MESSAGE value="build gradle fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="build gradle fixed" />
   </component>
 </project>
