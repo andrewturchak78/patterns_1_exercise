@@ -23,7 +23,6 @@ public class DeliveryCardTest {
     String phone = faker.phoneNumber().phoneNumber();
     @BeforeEach
     void setUpConnection() {
-        Configuration.headless = true ;
         open("http://localhost:9999/");
     }
 
