@@ -14,17 +14,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class DeliveryCardTest {
     DataGenerator generator = new DataGenerator();
-    private static Faker faker;
-
-    public static String generateName() {
-        faker = new Faker(new Locale("ru"));
-        return faker.name().fullName();
-    }
-
-    public static String generatePhone() {
-        faker = new Faker(new Locale("ru"));
-        return faker.phoneNumber().phoneNumber();
-    }
 
     @Test
     void shouldCardTest() {
@@ -32,8 +21,8 @@ public class DeliveryCardTest {
         $("[data-test-id=date] input").doubleClick().sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").sendKeys(generator.generateDate(5));
         $("[data-test-id=city] input").setValue(generator.generateCity());
-        $("[data-test-id=name] input").setValue(generateName());
-        $("[data-test-id=phone] input").setValue(generatePhone());
+        $("[data-test-id=name] input").setValue(generator.generateName());
+        $("[data-test-id=phone] input").setValue(generator.generatePhone());
         $("[data-test-id=agreement]").click();
         $$("button").find(exactText("Запланировать")).click();
         $("[data-test-id='success-notification'] .notification__content").shouldHave(exactText("Встреча успешно запланирована на " + generator.generateDate(5)));
